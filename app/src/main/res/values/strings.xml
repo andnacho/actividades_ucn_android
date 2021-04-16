@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Actividades</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="multiplicacion">Multiplicación</string>
+    <string name="division">División</string>
+    <string name="valor_1">Valor 1</string>
+    <string name="valor_2">Valor 2</string>
+    <string name="total">Resultado</string>
+    <string name="limpiar">Limpiar</string>
 </resources>
