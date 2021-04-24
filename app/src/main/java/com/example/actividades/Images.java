@@ -51,6 +51,8 @@ public class Images extends AppCompatActivity implements View.OnClickListener {
             public void onClick(View v) {
                 Toast notification = Toast.makeText(Images.this, "Franki saluda", Toast.LENGTH_SHORT);
                 notification.show();
+                Intent intent = new Intent(getApplicationContext(),NavigationMainActivity.class);
+                startActivity(intent);
             }
         });
     }

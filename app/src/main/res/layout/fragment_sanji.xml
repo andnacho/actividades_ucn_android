@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SanjiFragment"
+        android:background="#BF5050">
+
+    <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <FrameLayout
+                    android:layout_width="398dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center">
+
+                <ImageButton
+                        android:src="@drawable/sanji"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/imageButton9" />
+            </FrameLayout>
+        </TableRow>
+
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+            <TextView
+                    android:text="@string/sanji"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:textSize="24sp" />
+        </TableRow>
+
+        <TableRow
+                android:layout_width="278dp"
+                android:layout_height="55dp"
+                android:layout_gravity="center">
+
+            <TextView
+                    android:text="@string/sanji_history"
+                    android:layout_width="312dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/textView3"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:singleLine="false" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</FrameLayout>

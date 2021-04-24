@@ -8,4 +8,31 @@
     <string name="valor_2">Valor 2</string>
     <string name="total">Resultado</string>
     <string name="limpiar">Limpiar</string>
+    <string name="title_activity_navigation_main">NavigationMainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="luffy">Luffy</string>
+    <string name="luffy_history">Este es Luffy el capitan de los piratas de sombrero de paja</string>
+    <string name="zoro">Zoro</string>
+    <string name="zoro_history">Esta es la historia de zoro</string>
+    <string name="menu_luffy_piece">Luffy Fragment</string>
+    <string name="menu_zoro_piece">Zoro Fragment</string>
+    <string name="franky">Franky</string>
+    <string name="franky_history">Esta es la historia de Franky</string>
+    <string name="sanji">Sanji</string>
+    <string name="sanji_history">Esta es la historia de Sanji</string>
+    <string name="volver">Regresar</string>
+    <string name="title_activity_tabs">TabsActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 </resources>

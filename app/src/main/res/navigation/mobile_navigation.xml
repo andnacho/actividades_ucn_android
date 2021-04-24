@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mobile_navigation"
+        app:startDestination="@id/frankyFragment">
+
+    <fragment
+            android:id="@+id/zoroFragment"
+            android:name="com.example.actividades.ZoroFragment"
+            android:label="fragment_zoro"
+            tools:layout="@layout/fragment_zoro" />
+    <fragment
+            android:id="@+id/luffyFragment2"
+            android:name="com.example.actividades.LuffyFragment"
+            android:label="fragment_luffy"
+            tools:layout="@layout/fragment_luffy" />
+    <fragment
+            android:id="@+id/frankyFragment"
+            android:name="com.example.actividades.FrankyFragment"
+            android:label="fragment_franky"
+            tools:layout="@layout/fragment_franky" />
+    <fragment
+            android:id="@+id/sanjiFragment"
+            android:name="com.example.actividades.SanjiFragment"
+            android:label="fragment_sanji"
+            tools:layout="@layout/fragment_sanji" />
+
+</navigation>

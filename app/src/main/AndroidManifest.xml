@@ -9,15 +9,23 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/Theme.Actividades">
-        <activity android:name=".MenuLateral"></activity>
-        <activity android:name=".Images">
+        <activity
+                android:name=".TabsActivity"
+                android:label="@string/title_activity_tabs"
+                android:theme="@style/Theme.Actividades.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"></activity>
+        <activity
+                android:name=".NavigationMainActivity"
+                android:label="@string/title_activity_navigation_main"
+                android:theme="@style/Theme.Actividades.NoActionBar" />
+        <activity android:name=".Images">
+        </activity>
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
