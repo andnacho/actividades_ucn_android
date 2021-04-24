@@ -32,6 +32,8 @@ public class Images extends AppCompatActivity implements View.OnClickListener {
             public void onClick(View v) {
                 Toast notification = Toast.makeText(Images.this, "Zoro saluda", Toast.LENGTH_SHORT);
                 notification.show();
+                Intent intent = new Intent(getApplicationContext(), TabsActivity.class);
+                startActivity(intent);
             }
         });
         ImageButton boton3 = (ImageButton) findViewById(R.id.imageButton4);
