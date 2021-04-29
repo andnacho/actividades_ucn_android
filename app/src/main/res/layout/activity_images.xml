@@ -6,49 +6,91 @@
         android:layout_height="match_parent"
         tools:context=".Images">
 
-    <TableLayout
+    <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-        <TableRow
+        <LinearLayout
+                android:orientation="vertical"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
-            <ImageButton
-                    android:layout_width="wrap_content"
-                    android:layout_height="251dp"
-                    app:srcCompat="@drawable/boton1"
-                    android:id="@+id/imageButton"
-                    android:scaleType="centerCrop" />
+            <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="59dp"
+                    android:id="@+id/request"
+                    android:textAlignment="center"
+                    android:layout_gravity="center" />
 
-            <ImageButton
-                    android:layout_width="180dp"
-                    android:layout_height="251dp"
-                    app:srcCompat="@drawable/boton2"
-                    android:id="@+id/imageButton2"
-                    tools:srcCompat="@drawable/boton2"
-                    android:scaleType="centerCrop" />
-        </TableRow>
+            <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:text="1"
+                    android:ems="10"
+                    android:id="@+id/codigo" />
 
-        <TableRow
+            <Button
+                    android:text="Button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/click" />
+
+            <ListView
+                    android:id="@+id/list"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"></ListView>
+        </LinearLayout>
+
+        <TableLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content"
+                android:id="@+id/tableLayout">
 
-            <ImageButton
-                    android:layout_width="172dp"
-                    android:layout_height="251dp"
-                    app:srcCompat="@drawable/boton3"
-                    android:id="@+id/imageButton4"
-                    android:scaleType="centerCrop" />
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
 
-            <ImageButton
-                    android:layout_width="203dp"
-                    android:layout_height="251dp"
-                    app:srcCompat="@drawable/boton4"
-                    android:id="@+id/imageButton5"
-                    android:scaleType="centerCrop" />
+                <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="251dp"
+                        app:srcCompat="@drawable/boton1"
+                        android:id="@+id/imageButton"
+                        android:scaleType="centerCrop" />
 
-        </TableRow>
+                <ImageButton
+                        android:layout_width="180dp"
+                        android:layout_height="251dp"
+                        app:srcCompat="@drawable/boton2"
+                        android:id="@+id/imageButton2"
+                        tools:srcCompat="@drawable/boton2"
+                        android:scaleType="centerCrop" />
+            </TableRow>
 
-    </TableLayout>
+            <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                <ImageButton
+                        android:layout_width="172dp"
+                        android:layout_height="251dp"
+                        app:srcCompat="@drawable/boton3"
+                        android:id="@+id/imageButton4"
+                        android:scaleType="centerCrop" />
+
+                <ImageButton
+                        android:layout_width="203dp"
+                        android:layout_height="251dp"
+                        app:srcCompat="@drawable/boton4"
+                        android:id="@+id/imageButton5"
+                        android:scaleType="centerCrop" />
+
+            </TableRow>
+
+        </TableLayout>
+
+    </LinearLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
